@@ -1,0 +1,1656 @@
+{
+ "id": "living_ours",
+ "title": "Living room + kitchen \u2014 ours (ScanArt)",
+ "kind": "ours",
+ "source": "ScanNet++ 09c1414f1b",
+ "run": "v22c_astra",
+ "offset": [
+  -5.958,
+  -4.035,
+  -0.18
+ ],
+ "floor_z": 0,
+ "bounds": [
+  [
+   -6.041,
+   -4.151,
+   -0.14
+  ],
+  [
+   5.687,
+   5.041,
+   2.84
+  ]
+ ],
+ "bodies": [
+  {
+   "name": "bay_1_front_1_197",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_2_front_1_197",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_218",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_2_front_1_218",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.36
+   ]
+  },
+  {
+   "name": "bay_1_front_1_219",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.32
+   ]
+  },
+  {
+   "name": "bay_2_front_1_219",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_3_front_1_219",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_221",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_2_221",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.4488
+   ]
+  },
+  {
+   "name": "cutting_board_221",
+   "label": "pull-out cutting board",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.388
+   ]
+  },
+  {
+   "name": "bay_1_front_1_222",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_2_front_1_222",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    0.895
+   ]
+  },
+  {
+   "name": "bay_1_front_1_229",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.4504
+   ]
+  },
+  {
+   "name": "bay_1_front_2_229",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.4504
+   ]
+  },
+  {
+   "name": "bay_1_front_3_229",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.4504
+   ]
+  },
+  {
+   "name": "bay_1_front_4_229",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.4504
+   ]
+  },
+  {
+   "name": "bay_2_front_1_229",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_3_front_1_229",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_230",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.48
+   ]
+  },
+  {
+   "name": "bay_1_front_2_230",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.424
+   ]
+  },
+  {
+   "name": "bay_2_front_1_230",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_41",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_2_front_1_41",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_42",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    0.975
+   ]
+  },
+  {
+   "name": "bay_2_front_1_42",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "bay_1_front_1_43",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "console_drawer_1_102",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.268
+   ]
+  },
+  {
+   "name": "console_drawer_2_102",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.268
+   ]
+  },
+  {
+   "name": "dining_sash_1_54",
+   "label": "window sash",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.505
+   ]
+  },
+  {
+   "name": "dining_sash_2_54",
+   "label": "window sash",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.505
+   ]
+  },
+  {
+   "name": "door_inst49",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    0.915
+   ]
+  },
+  {
+   "name": "door_inst51",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.45
+   ]
+  },
+  {
+   "name": "door_inst52",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.45
+   ]
+  },
+  {
+   "name": "door_inst53",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.45
+   ]
+  },
+  {
+   "name": "door_inst71",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.45
+   ]
+  },
+  {
+   "name": "freezer_door_217",
+   "label": "refrigerator door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "fresh_food_door_217",
+   "label": "refrigerator door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "hood_bay_234_0_245",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "hood_bay_273_0_245",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "hood_bay_273_1_245",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "hood_bay_364_0_245",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "open_end_door_316",
+   "label": "door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.2708
+   ]
+  },
+  {
+   "name": "oven_door_200",
+   "label": "oven door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "window_inst297",
+   "label": "window",
+   "kind": "slide",
+   "range": [
+    0.0,
+    0.515
+   ]
+  },
+  {
+   "name": "apple_inst211",
+   "label": "apple",
+   "kind": "free"
+  },
+  {
+   "name": "backpack_inst101",
+   "label": "backpack",
+   "kind": "free"
+  },
+  {
+   "name": "backpack_inst149",
+   "label": "backpack",
+   "kind": "free"
+  },
+  {
+   "name": "bag_inst154",
+   "label": "bag",
+   "kind": "free"
+  },
+  {
+   "name": "bag_inst203",
+   "label": "bag",
+   "kind": "free"
+  },
+  {
+   "name": "bananas_inst212",
+   "label": "bananas",
+   "kind": "free"
+  },
+  {
+   "name": "blue_print_tumbler",
+   "label": "drinking glass",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst116",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst117",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst118",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst123",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst124",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst125",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "book_inst98",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "boot_inst157",
+   "label": "boot",
+   "kind": "free"
+  },
+  {
+   "name": "boot_inst158",
+   "label": "boot",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst184",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst185",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst237",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst238",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst252",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst286",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "bottle_inst287",
+   "label": "bottle",
+   "kind": "free"
+  },
+  {
+   "name": "box_inst100",
+   "label": "box",
+   "kind": "free"
+  },
+  {
+   "name": "box_inst114",
+   "label": "box",
+   "kind": "free"
+  },
+  {
+   "name": "box_inst115",
+   "label": "box",
+   "kind": "free"
+  },
+  {
+   "name": "box_inst176",
+   "label": "box",
+   "kind": "free"
+  },
+  {
+   "name": "box_inst225",
+   "label": "box",
+   "kind": "free"
+  },
+  {
+   "name": "brass_spindle_ornament",
+   "label": "brass ornament",
+   "kind": "free"
+  },
+  {
+   "name": "carpet_inst148",
+   "label": "carpet",
+   "kind": "free"
+  },
+  {
+   "name": "carpet_inst215",
+   "label": "carpet",
+   "kind": "free"
+  },
+  {
+   "name": "carpet_inst216",
+   "label": "carpet",
+   "kind": "free"
+  },
+  {
+   "name": "cleaning_brush_inst281",
+   "label": "cleaning brush",
+   "kind": "free"
+  },
+  {
+   "name": "coaster_inst96",
+   "label": "coaster",
+   "kind": "free"
+  },
+  {
+   "name": "coffee_table_inst89",
+   "label": "coffee table",
+   "kind": "free"
+  },
+  {
+   "name": "cutting_board_inst250",
+   "label": "cutting board",
+   "kind": "free"
+  },
+  {
+   "name": "dining_chair_inst134",
+   "label": "dining chair",
+   "kind": "free"
+  },
+  {
+   "name": "dining_chair_inst135",
+   "label": "dining chair",
+   "kind": "free"
+  },
+  {
+   "name": "dining_chair_inst136",
+   "label": "dining chair",
+   "kind": "free"
+  },
+  {
+   "name": "dining_chair_inst137",
+   "label": "dining chair",
+   "kind": "free"
+  },
+  {
+   "name": "dining_chair_inst138",
+   "label": "dining chair",
+   "kind": "free"
+  },
+  {
+   "name": "dining_table_inst133",
+   "label": "dining table",
+   "kind": "free"
+  },
+  {
+   "name": "flip_flop_inst155",
+   "label": "flip flop",
+   "kind": "free"
+  },
+  {
+   "name": "flip_flop_inst156",
+   "label": "flip flop",
+   "kind": "free"
+  },
+  {
+   "name": "floor_lamp_inst109",
+   "label": "floor lamp",
+   "kind": "free"
+  },
+  {
+   "name": "floor_lamp_inst87",
+   "label": "floor lamp",
+   "kind": "free"
+  },
+  {
+   "name": "footstool_inst108",
+   "label": "footstool",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_1",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_10",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_11",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_12",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_13",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_14",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_15",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_16",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_17",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_18",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_19",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_2",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_20",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_21",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_22",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_23",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_24",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_3",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_4",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_5",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_6",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_7",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_8",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_1_9",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_1",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_10",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_11",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_12",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_13",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_14",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_15",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_16",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_17",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_18",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_19",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_2",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_20",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_3",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_4",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_5",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_6",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_7",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_8",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_2_9",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_1",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_10",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_11",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_12",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_13",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_14",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_15",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_16",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_17",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_18",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_19",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_2",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_20",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_21",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_22",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_3",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_4",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_5",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_6",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_7",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_8",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hall_book_3_9",
+   "label": "book",
+   "kind": "free"
+  },
+  {
+   "name": "hat_inst111",
+   "label": "hat",
+   "kind": "free"
+  },
+  {
+   "name": "helmet_inst182",
+   "label": "helmet",
+   "kind": "free"
+  },
+  {
+   "name": "helmet_inst183",
+   "label": "helmet",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst256",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst257",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst258",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst259",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst260",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst261",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst262",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst263",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst264",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst265",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst266",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst267",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "jar_inst268",
+   "label": "jar",
+   "kind": "free"
+  },
+  {
+   "name": "kettle_inst277",
+   "label": "kettle",
+   "kind": "free"
+  },
+  {
+   "name": "knife_holder_inst270",
+   "label": "knife holder",
+   "kind": "free"
+  },
+  {
+   "name": "machine_inst278",
+   "label": "machine",
+   "kind": "free"
+  },
+  {
+   "name": "microwave_inst288",
+   "label": "microwave",
+   "kind": "free"
+  },
+  {
+   "name": "microwave_door_288",
+   "label": "microwave door",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "object_inst110",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst119",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst120",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst121",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst122",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst126",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst127",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst128",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst150",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst161",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst186",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst235",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst236",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst251",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst254",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst269",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst282",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst299",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst303",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst75",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst84",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst97",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "object_inst99",
+   "label": "object",
+   "kind": "free"
+  },
+  {
+   "name": "paper_inst162",
+   "label": "paper",
+   "kind": "free"
+  },
+  {
+   "name": "paper_inst163",
+   "label": "paper",
+   "kind": "free"
+  },
+  {
+   "name": "picture_inst85",
+   "label": "picture",
+   "kind": "free"
+  },
+  {
+   "name": "plant_pot_inst112",
+   "label": "plant pot",
+   "kind": "free"
+  },
+  {
+   "name": "plant_pot_inst130",
+   "label": "plant pot",
+   "kind": "free"
+  },
+  {
+   "name": "plant_pot_inst139",
+   "label": "plant pot",
+   "kind": "free"
+  },
+  {
+   "name": "plant_pot_inst191",
+   "label": "plant pot",
+   "kind": "free"
+  },
+  {
+   "name": "plant_pot_inst289",
+   "label": "plant pot",
+   "kind": "free"
+  },
+  {
+   "name": "plate_inst210",
+   "label": "plate",
+   "kind": "free"
+  },
+  {
+   "name": "plate_inst292",
+   "label": "plate",
+   "kind": "free"
+  },
+  {
+   "name": "pumper_inst179",
+   "label": "pumper",
+   "kind": "free"
+  },
+  {
+   "name": "remote_controller_inst95",
+   "label": "remote controller",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst151",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst152",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst164",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst165",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst166",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst167",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst168",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_inst169",
+   "label": "shoe",
+   "kind": "free"
+  },
+  {
+   "name": "shoe_rack_inst159",
+   "label": "shoe rack",
+   "kind": "free"
+  },
+  {
+   "name": "slipper_inst170",
+   "label": "slipper",
+   "kind": "free"
+  },
+  {
+   "name": "slipper_inst171",
+   "label": "slipper",
+   "kind": "free"
+  },
+  {
+   "name": "slipper_inst172",
+   "label": "slipper",
+   "kind": "free"
+  },
+  {
+   "name": "sofa_chair_inst107",
+   "label": "sofa chair",
+   "kind": "free"
+  },
+  {
+   "name": "speaker_inst104",
+   "label": "speaker",
+   "kind": "free"
+  },
+  {
+   "name": "speaker_inst105",
+   "label": "speaker",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_1_lower",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_1_upper",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_2_lower",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_2_upper",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_3_lower",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "spice_jar_3_upper",
+   "label": "storage jar",
+   "kind": "free"
+  },
+  {
+   "name": "sponge_inst233",
+   "label": "sponge",
+   "kind": "free"
+  },
+  {
+   "name": "sponge_inst283",
+   "label": "sponge",
+   "kind": "free"
+  },
+  {
+   "name": "stool_inst207",
+   "label": "stool",
+   "kind": "free"
+  },
+  {
+   "name": "stool_inst208",
+   "label": "stool",
+   "kind": "free"
+  },
+  {
+   "name": "suitcase_inst153",
+   "label": "suitcase",
+   "kind": "free"
+  },
+  {
+   "name": "suitcase_lid_153",
+   "label": "suitcase lid",
+   "kind": "hinge",
+   "range": [
+    0.0,
+    0.435
+   ]
+  },
+  {
+   "name": "toaster_inst291",
+   "label": "toaster",
+   "kind": "free"
+  },
+  {
+   "name": "trash_can_inst223",
+   "label": "trash can",
+   "kind": "free"
+  },
+  {
+   "name": "tv_inst106",
+   "label": "tv",
+   "kind": "free"
+  },
+  {
+   "name": "water_filter_dispenser",
+   "label": "water filter dispenser",
+   "kind": "free"
+  }
+ ],
+ "landmarks": [
+  {
+   "name": "sofa_inst47",
+   "label": "sofa",
+   "pos": [
+    -0.17,
+    2.679
+   ],
+   "approach": [
+    -0.016,
+    0.374,
+    1.637
+   ]
+  },
+  {
+   "name": "kitchen_counter_inst248",
+   "label": "kitchen counter",
+   "pos": [
+    -3.576,
+    -2.371
+   ],
+   "approach": [
+    -1.916,
+    -2.126,
+    -2.995
+   ]
+  },
+  {
+   "name": "counter_inst61",
+   "label": "counter",
+   "pos": [
+    -2.563,
+    -1.764
+   ],
+   "approach": [
+    -0.666,
+    -2.176,
+    2.928
+   ]
+  },
+  {
+   "name": "refrigerator_inst217",
+   "label": "refrigerator",
+   "pos": [
+    -2.315,
+    -3.185
+   ],
+   "approach": [
+    -2.716,
+    -2.126,
+    -1.208
+   ]
+  },
+  {
+   "name": "kitchen_cabinet_inst229",
+   "label": "kitchen cabinet",
+   "pos": [
+    -3.314,
+    -1.188
+   ],
+   "approach": [
+    -2.966,
+    -2.276,
+    1.88
+   ]
+  },
+  {
+   "name": "dining_table_inst133",
+   "label": "dining table",
+   "pos": [
+    -4.02,
+    1.528
+   ],
+   "approach": [
+    -3.966,
+    0.024,
+    1.607
+   ]
+  },
+  {
+   "name": "bicycle_inst178",
+   "label": "bicycle",
+   "pos": [
+    1.384,
+    -2.085
+   ],
+   "approach": [
+    0.234,
+    -1.326,
+    -0.583
+   ]
+  },
+  {
+   "name": "sofa_chair_inst107",
+   "label": "sofa chair",
+   "pos": [
+    -2.235,
+    2.004
+   ],
+   "approach": [
+    -1.666,
+    0.674,
+    1.974
+   ]
+  },
+  {
+   "name": "oven_inst200",
+   "label": "oven",
+   "pos": [
+    -1.555,
+    -3.037
+   ],
+   "approach": [
+    -0.716,
+    -2.176,
+    -2.343
+   ]
+  },
+  {
+   "name": "bookshelf_inst57",
+   "label": "bookshelf",
+   "pos": [
+    3.69,
+    0.866
+   ],
+   "approach": [
+    2.634,
+    1.224,
+    -0.326
+   ]
+  },
+  {
+   "name": "cabinet_inst41",
+   "label": "cabinet",
+   "pos": [
+    -1.552,
+    -3.056
+   ],
+   "approach": [
+    -0.766,
+    -2.176,
+    -2.3
+   ]
+  },
+  {
+   "name": "sink_inst280",
+   "label": "sink",
+   "pos": [
+    -3.845,
+    -2.872
+   ],
+   "approach": [
+    -2.916,
+    -2.126,
+    -2.465
+   ]
+  },
+  {
+   "name": "window_inst55",
+   "label": "window",
+   "pos": [
+    -4.131,
+    -3.348
+   ],
+   "approach": [
+    -3.216,
+    -2.726,
+    -2.544
+   ]
+  },
+  {
+   "name": "stove_inst255",
+   "label": "stove",
+   "pos": [
+    -3.451,
+    -1.209
+   ],
+   "approach": [
+    -2.766,
+    -2.126,
+    2.212
+   ]
+  }
+ ],
+ "nodes": {
+  "ceiling": [
+   "static_ceiling"
+  ],
+  "static": [
+   "static_structure",
+   "static_fixed"
+  ]
+ },
+ "files": [
+  "physics.xml",
+  "visual.glb"
+ ],
+ "stats": {
+  "n_objects": 460,
+  "n_movable": 198,
+  "n_joints": 46,
+  "n_static_objects": 152,
+  "n_hulls": 5022,
+  "glb_triangles": 336738
+ },
+ "spawn": {
+  "pos": [
+   0.284,
+   -0.926
+  ],
+  "yaw": 2.033,
+  "clearance_m": 1.29
+ },
+ "camera": {
+  "pos": [
+   1.134,
+   -0.426,
+   2.1
+  ],
+  "target": [
+   -2.015,
+   -0.997,
+   0.5
+  ]
+ }
+}

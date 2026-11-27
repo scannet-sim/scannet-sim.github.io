@@ -1,0 +1,143 @@
+{
+ "source": "unitree_rl_gym deploy/pre_train/g1/motion.pt (commit 276801e, BSD-3-Clause), LSTM(47->64) + MLP 64-32(ELU)-12, weights exported to float32 little-endian",
+ "weights": {
+  "memory.weight_ih_l0": {
+   "offset": 0,
+   "shape": [
+    256,
+    47
+   ]
+  },
+  "memory.weight_hh_l0": {
+   "offset": 12032,
+   "shape": [
+    256,
+    64
+   ]
+  },
+  "memory.bias_ih_l0": {
+   "offset": 28416,
+   "shape": [
+    256
+   ]
+  },
+  "memory.bias_hh_l0": {
+   "offset": 28672,
+   "shape": [
+    256
+   ]
+  },
+  "actor.0.weight": {
+   "offset": 28928,
+   "shape": [
+    32,
+    64
+   ]
+  },
+  "actor.0.bias": {
+   "offset": 30976,
+   "shape": [
+    32
+   ]
+  },
+  "actor.2.weight": {
+   "offset": 31008,
+   "shape": [
+    12,
+    32
+   ]
+  },
+  "actor.2.bias": {
+   "offset": 31392,
+   "shape": [
+    12
+   ]
+  }
+ },
+ "hidden": 64,
+ "joints": [
+  "left_hip_pitch_joint",
+  "left_hip_roll_joint",
+  "left_hip_yaw_joint",
+  "left_knee_joint",
+  "left_ankle_pitch_joint",
+  "left_ankle_roll_joint",
+  "right_hip_pitch_joint",
+  "right_hip_roll_joint",
+  "right_hip_yaw_joint",
+  "right_knee_joint",
+  "right_ankle_pitch_joint",
+  "right_ankle_roll_joint"
+ ],
+ "kps": [
+  100,
+  100,
+  100,
+  150,
+  40,
+  40,
+  100,
+  100,
+  100,
+  150,
+  40,
+  40
+ ],
+ "kds": [
+  2,
+  2,
+  2,
+  4,
+  2,
+  2,
+  2,
+  2,
+  2,
+  4,
+  2,
+  2
+ ],
+ "default_angles": [
+  -0.1,
+  0,
+  0,
+  0.3,
+  -0.2,
+  0,
+  -0.1,
+  0,
+  0,
+  0.3,
+  -0.2,
+  0
+ ],
+ "ang_vel_scale": 0.25,
+ "dof_pos_scale": 1.0,
+ "dof_vel_scale": 0.05,
+ "action_scale": 0.25,
+ "cmd_scale": [
+  2.0,
+  2.0,
+  0.25
+ ],
+ "num_obs": 47,
+ "num_actions": 12,
+ "simulation_dt": 0.002,
+ "control_decimation": 10,
+ "gait_period": 0.8,
+ "base_height": 0.793,
+ "cmd_limits": {
+  "vx": [
+   -0.6,
+   1.0
+  ],
+  "vy": [
+   -0.5,
+   0.5
+  ],
+  "wz": [
+   -1.0,
+   1.0
+  ]
+ }
+}

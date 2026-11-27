@@ -1,0 +1,46 @@
+<mujoco model="_test">
+  <compiler angle="radian" autolimits="true"/>
+  <option timestep="0.002"/>
+  <asset>
+        <mesh name="wall0" file="meshes/wall0.stl"/>
+    <mesh name="wall1" file="meshes/wall1.stl"/>
+    <mesh name="wall2" file="meshes/wall2.stl"/>
+    <mesh name="wall3" file="meshes/wall3.stl"/>
+    <mesh name="cab_top" file="meshes/cab_top.stl"/>
+    <mesh name="cab_bot" file="meshes/cab_bot.stl"/>
+    <mesh name="cab_back" file="meshes/cab_back.stl"/>
+    <mesh name="cab_l" file="meshes/cab_l.stl"/>
+    <mesh name="cab_r" file="meshes/cab_r.stl"/>
+    <mesh name="cab_mid" file="meshes/cab_mid.stl"/>
+    <mesh name="cab_shelf" file="meshes/cab_shelf.stl"/>
+    <mesh name="door_1" file="meshes/door_1.stl"/>
+    <mesh name="door_1_h" file="meshes/door_1_h.stl"/>
+    <mesh name="drawer_1_front" file="meshes/drawer_1_front.stl"/>
+    <mesh name="drawer_1_bottom" file="meshes/drawer_1_bottom.stl"/>
+    <mesh name="drawer_1_bl" file="meshes/drawer_1_bl.stl"/>
+    <mesh name="drawer_1_br" file="meshes/drawer_1_br.stl"/>
+    <mesh name="drawer_1_bk" file="meshes/drawer_1_bk.stl"/>
+    <mesh name="drawer_1_handle" file="meshes/drawer_1_handle.stl"/>
+    <mesh name="box_1" file="meshes/box_1.stl"/>
+    <mesh name="box_2" file="meshes/box_2.stl"/>
+  </asset>
+  <worldbody>
+    <geom name="floor" type="plane" size="0 0 0.05" group="3"/>
+        <geom name="wall0" type="mesh" mesh="wall0" pos="0 4.05 1.2" group="3"/>
+    <geom name="wall1" type="mesh" mesh="wall1" pos="0 -4.05 1.2" group="3"/>
+    <geom name="wall2" type="mesh" mesh="wall2" pos="4.05 0 1.2" group="3"/>
+    <geom name="wall3" type="mesh" mesh="wall3" pos="-4.05 0 1.2" group="3"/>
+    <geom name="cab_top" type="mesh" mesh="cab_top" pos="2.8 0 0.885" group="3"/>
+    <geom name="cab_bot" type="mesh" mesh="cab_bot" pos="2.8 0 0.015" group="3"/>
+    <geom name="cab_back" type="mesh" mesh="cab_back" pos="3.085 0 0.45" group="3"/>
+    <geom name="cab_l" type="mesh" mesh="cab_l" pos="2.8 -0.485 0.45" group="3"/>
+    <geom name="cab_r" type="mesh" mesh="cab_r" pos="2.8 0.485 0.45" group="3"/>
+    <geom name="cab_mid" type="mesh" mesh="cab_mid" pos="2.8 0.0 0.45" group="3"/>
+    <geom name="cab_shelf" type="mesh" mesh="cab_shelf" pos="2.8 0.235 0.62" group="3"/>
+        <body name="door_1" pos="0 0 0"><joint name="door_1_j" type="hinge" axis="0 0 1" pos="2.495 -0.47 0.45" range="0 1.9" damping="0.5" armature="0.01"/>
+  <geom type="mesh" mesh="door_1" pos="2.485 -0.2425 0.45" group="3" density="500"/><geom type="mesh" mesh="door_1_h" pos="2.46 -0.06 0.6" group="3" density="500"/></body>
+    <body name="drawer_1"><joint name="drawer_1_j" type="slide" axis="-1 0 0" range="0 0.45" damping="2" armature="0.01"/><geom type="mesh" mesh="drawer_1_front" pos="2.485 0.2425 0.3" group="3" density="400"/><geom type="mesh" mesh="drawer_1_bottom" pos="2.76 0.2425 0.07" group="3" density="400"/><geom type="mesh" mesh="drawer_1_bl" pos="2.76 0.04 0.2" group="3" density="400"/><geom type="mesh" mesh="drawer_1_br" pos="2.76 0.445 0.2" group="3" density="400"/><geom type="mesh" mesh="drawer_1_bk" pos="3.02 0.2425 0.2" group="3" density="400"/><geom type="mesh" mesh="drawer_1_handle" pos="2.46 0.2425 0.42" group="3" density="400"/></body>
+    <body name="box_1" pos="1.2 1.0 0.151"><freejoint/><geom type="mesh" mesh="box_1" group="3" density="80"/></body>
+    <body name="box_2" pos="-1.5 -1.5 0.101"><freejoint/><geom type="mesh" mesh="box_2" group="3" density="150"/></body>
+  </worldbody>
+</mujoco>

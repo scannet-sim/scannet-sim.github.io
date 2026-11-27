@@ -1,0 +1,114 @@
+{
+ "id": "_test",
+ "title": "Test room",
+ "kind": "ours",
+ "source": "synthetic test package",
+ "offset": [
+  0,
+  0,
+  0
+ ],
+ "floor_z": 0,
+ "bounds": [
+  [
+   -4,
+   -4,
+   0
+  ],
+  [
+   4,
+   4,
+   2.4
+  ]
+ ],
+ "spawn": {
+  "pos": [
+   -1.0,
+   0.0
+  ],
+  "yaw": 0.0
+ },
+ "camera": {
+  "pos": [
+   -3.5,
+   -2.5,
+   2.2
+  ],
+  "target": [
+   0.5,
+   0,
+   0.6
+  ]
+ },
+ "bodies": [
+  {
+   "name": "door_1",
+   "label": "cabinet door",
+   "kind": "hinge",
+   "range": [
+    0,
+    1.9
+   ]
+  },
+  {
+   "name": "drawer_1",
+   "label": "drawer",
+   "kind": "slide",
+   "range": [
+    0,
+    0.45
+   ]
+  },
+  {
+   "name": "box_1",
+   "label": "blue box",
+   "kind": "free"
+  },
+  {
+   "name": "box_2",
+   "label": "red box",
+   "kind": "free"
+  }
+ ],
+ "landmarks": [
+  {
+   "name": "cabinet",
+   "label": "wooden cabinet",
+   "pos": [
+    2.8,
+    0
+   ],
+   "approach": [
+    1.7,
+    0,
+    0.0
+   ]
+  },
+  {
+   "name": "box_1",
+   "label": "blue box",
+   "pos": [
+    1.2,
+    1.0
+   ],
+   "approach": [
+    0.4,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "name": "corner",
+   "label": "far corner",
+   "pos": [
+    -3,
+    3
+   ],
+   "approach": [
+    -3.0,
+    3.0,
+    2.3
+   ]
+  }
+ ]
+}

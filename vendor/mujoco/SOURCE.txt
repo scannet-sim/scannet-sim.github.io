@@ -1,0 +1,2 @@
+MuJoCo WebAssembly bindings, npm @mujoco/mujoco 4.0.1 (single-threaded build), Google DeepMind, Apache-2.0.
+https://github.com/google-deepmind/mujoco/tree/main/wasm

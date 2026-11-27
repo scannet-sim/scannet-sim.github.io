@@ -1,0 +1,62 @@
+[
+ {
+  "id": "d00",
+  "label": "Desk",
+  "room": "r2",
+  "frame": "frame_005090"
+ },
+ {
+  "id": "d01",
+  "label": "Office desk",
+  "room": "r1",
+  "frame": "frame_007350"
+ },
+ {
+  "id": "d02",
+  "label": "Kitchen counter",
+  "room": "r3",
+  "frame": "frame_009640"
+ },
+ {
+  "id": "d03",
+  "label": "Bicycle",
+  "room": "r3",
+  "frame": "frame_006940"
+ },
+ {
+  "id": "d04",
+  "label": "Fan",
+  "room": "r1",
+  "frame": "frame_003200"
+ },
+ {
+  "id": "d05",
+  "label": "Sofa and cloth",
+  "room": "r3",
+  "frame": "frame_004110"
+ },
+ {
+  "id": "d06",
+  "label": "Workbench",
+  "room": "r1",
+  "frame": "frame_000800"
+ },
+ {
+  "id": "d07",
+  "label": "Microwave and dish rack",
+  "room": "r3",
+  "frame": "frame_009190"
+ },
+ {
+  "id": "d08",
+  "label": "Bar stools",
+  "room": "r3",
+  "frame": "frame_005950"
+ },
+ {
+  "id": "d09",
+  "label": "Tripods and fan stand",
+  "room": "r1",
+  "frame": "frame_012200"
+ }
+]

@@ -1,0 +1,1 @@
+three.js r170 (npm three@0.170.0), MIT. build/three.module.min.js + examples/jsm GLTFLoader, OrbitControls, BufferGeometryUtils (imports rewritten to relative paths).
