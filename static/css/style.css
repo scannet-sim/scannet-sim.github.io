@@ -45,6 +45,11 @@ img, video { display: block; max-width: 100%; }
   font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: clamp(64px, 11vw, 128px); letter-spacing: -.01em;
   background: linear-gradient(180deg, #ffffff 30%, #d9d6cc 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
+.title-long {
+  margin: 4px auto 30px; max-width: 1060px; text-wrap: balance;
+  font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: clamp(32px, 4.5vw, 54px); line-height: 1.1; letter-spacing: -.01em;
+  background: linear-gradient(180deg, #ffffff 30%, #d9d6cc 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
 .subtitle {
   margin: 10px auto 26px; max-width: 860px;
   font-size: clamp(19px, 2.4vw, 27px); line-height: 1.35; font-weight: 500; color: #e9e7e0; letter-spacing: -.01em;
@@ -195,3 +200,4 @@ summary { cursor: pointer; font-weight: 600; color: var(--ink); }
   .tri-labels { font-size: 11.5px; }
   .demo-shell { aspect-ratio: 3 / 4; }
 }
+.nw { white-space: nowrap; }
