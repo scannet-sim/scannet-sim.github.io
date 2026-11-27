@@ -1,4 +1,4 @@
-// ScanArt interactive demo: ?scene=<id>[&twin=<id>][&robot=g1|none][&cam=follow|free][&sleep=1][&start=click][&ui=min]
+// Interactive demo: ?scene=<id>[&twin=<id>][&robot=g1|none][&cam=follow|free][&sleep=1][&start=click][&ui=min]
 import loadMujoco from '../../vendor/mujoco/mujoco.js';
 import { Progress, loadScenePackage, loadRobotPackage, SimWorld } from './world.js';
 import { WorldView } from './view.js';
@@ -17,7 +17,7 @@ if (Q.get('ui') === 'min') document.body.classList.add('min');
 if (!withRobot) document.body.classList.add('norobot');
 
 const state = { worlds: [], views: [], keys: new Set(), speed: 1, running: false, frames: 0, simAcc: 0, wallAcc: 0, fps: 0, rtf: 0 };
-window.scanart = { state, ready: null, setKeys: (ks) => { state.keys = new Set(ks); }, command: (t) => runCommand(t), grasp: () => graspToggle() };
+window.simdemo = { state, ready: null, setKeys: (ks) => { state.keys = new Set(ks); }, command: (t) => runCommand(t), grasp: () => graspToggle() };
 
 function fmtMB(n) { return (n / 1048576).toFixed(1) + ' MB'; }
 
@@ -282,7 +282,7 @@ function frame(now) {
 }
 
 function start() {
-  window.scanart.ready = boot().catch((e) => {
+  window.simdemo.ready = boot().catch((e) => {
     console.error(e); ui.msg.textContent = 'Could not start the demo: ' + (e.message || e); ui.loading.classList.add('error'); throw e;
   });
 }

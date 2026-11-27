@@ -1,6 +1,6 @@
 {
  "id": "office_ours",
- "title": "Office \u2014 ours (ScanArt)",
+ "title": "Office \u2014 ours",
  "kind": "ours",
  "source": "ScanNet++ acd69a1746",
  "run": "v22c_astra",

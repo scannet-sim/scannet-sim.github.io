@@ -30,7 +30,7 @@
 
   <figure class="teaser">
     <div class="tri-labels">
-      <span>Real iPhone video</span><span>Original scan mesh</span><span class="ours">ScanArt (ours)</span>
+      <span>Real iPhone video</span><span>Original scan mesh</span><span class="ours">Ours</span>
     </div>
     <video id="teaser" autoplay muted loop playsinline preload="metadata" poster="assets/videos/room1_iphone_poster.jpg">
       <source src="assets/videos/room1_iphone.mp4" type="video/mp4">
@@ -44,7 +44,7 @@
 <section class="tldr wrap">
   <p class="lead">
     A laser scan shows a room, but a robot cannot use it: the scan is one fused shell, with holes where the scanner saw nothing,
-    doors that never open and cups that never move. <strong>ScanArt</strong> rebuilds the real room as a photoreal simulation scene:
+    doors that never open and cups that never move. <strong>We</strong> rebuild the real room as a photoreal simulation scene:
     every object separate and solid, every door, drawer and lid working, and the whole scene ready to run in a physics engine.
     A coding agent builds the scene from the captured photos and scan, without a human in the loop.
   </p>
@@ -88,7 +88,7 @@
 <!-- ======================= INTERACTIVE ======================= -->
 <section id="play" class="band dark">
   <div class="wrap">
-    <h2 class="section-title">Drive a humanoid through a ScanArt room</h2>
+    <h2 class="section-title">Drive a humanoid through one of our rooms</h2>
     <p class="section-sub">A Unitree G1 with a learned walking controller, live in your browser (MuJoCo physics), inside one of our rebuilt rooms.
       Walk it around, push chairs and doors, carry things from the counter to the table: movable objects and jointed parts are simulated, not painted on. Text commands plan a path around the furniture.
       How the same robot fares on the original scan is shown in the <a href="#robots">robot videos</a> below.</p>
@@ -113,7 +113,7 @@
 
 <section id="explore" class="wrap">
   <h2 class="section-title">Open every drawer yourself</h2>
-  <p class="section-sub">A full ScanArt room running in MuJoCo in your browser. Grab any door, drawer or object and pull.
+  <p class="section-sub">One of our full rooms running in MuJoCo in your browser. Grab any door, drawer or object and pull.
     Everything you can move here is a separate rigid body or a jointed part with its own range.</p>
   <div class="demo-shell light" data-demo="scene" data-src="demo/index.html?scene=office_ours&amp;robot=none">
     <div class="demo-placeholder">
@@ -134,14 +134,14 @@
   <div class="room-meta" id="room-meta"></div>
 
   <figure class="vid">
-    <div class="tri-labels dark"><span>Real iPhone video</span><span>Original scan mesh</span><span class="ours">ScanArt (ours)</span></div>
+    <div class="tri-labels dark"><span>Real iPhone video</span><span>Original scan mesh</span><span class="ours">Ours</span></div>
     <video id="v-iphone" muted loop playsinline preload="none"></video>
-    <figcaption>Along the iPhone camera path, at real speed. Scan mesh and ScanArt rendered with Blender Cycles from the same poses.</figcaption>
+    <figcaption>Along the iPhone camera path, at real speed. Scan mesh and ours rendered with Blender Cycles from the same poses.</figcaption>
   </figure>
 
   <div class="two">
     <figure class="vid">
-      <div class="tri-labels dark two-col"><span>Original scan mesh</span><span class="ours">ScanArt (ours)</span></div>
+      <div class="tri-labels dark two-col"><span>Original scan mesh</span><span class="ours">Ours</span></div>
       <video id="v-novel" muted loop playsinline preload="none"></video>
       <figcaption>A new camera path that no photo was taken from, at walking pace (Blender Cycles).</figcaption>
     </figure>
@@ -157,14 +157,14 @@
 <section id="detail" class="band soft">
   <div class="wrap">
     <h2 class="section-title">Look closer</h2>
-    <p class="section-sub">Drag the handle to compare the original scan with ScanArt at the same iPhone frame. Hold <em>Real photo</em> to see what the camera saw.</p>
+    <p class="section-sub">Drag the handle to compare the original scan with ours at the same iPhone frame. Hold <em>Real photo</em> to see what the camera saw.</p>
     <div class="cmp-wrap">
       <div class="cmp" id="cmp">
         <img class="cmp-a" id="cmp-scan" alt="Original scan mesh">
-        <div class="cmp-b-clip" id="cmp-clip"><img class="cmp-b" id="cmp-ours" alt="ScanArt"></div>
+        <div class="cmp-b-clip" id="cmp-clip"><img class="cmp-b" id="cmp-ours" alt="Ours"></div>
         <img class="cmp-photo" id="cmp-photo" alt="Real photo">
         <div class="cmp-handle" id="cmp-handle"><span></span></div>
-        <span class="cmp-tag left">Original scan</span><span class="cmp-tag right">ScanArt</span>
+        <span class="cmp-tag left">Original scan</span><span class="cmp-tag right">Ours</span>
       </div>
       <div class="cmp-side">
         <button class="photo-btn" id="photo-btn" type="button">Hold: real photo</button>
@@ -177,14 +177,14 @@
 <!-- ======================= ROBOTS ======================= -->
 <section id="robots" class="wrap">
   <h2 class="section-title">Robots that can actually work in the room</h2>
-  <p class="section-sub">Because objects are separate and parts are jointed, robots can do real tasks in a ScanArt scene.</p>
+  <p class="section-sub">Because objects are separate and parts are jointed, robots can do real tasks in our scenes.</p>
 
   <figure class="vid">
     <video class="autoplay" muted loop playsinline preload="none" poster="assets/videos/g1_long_poster.jpg">
       <source src="assets/videos/g1_long.mp4" type="video/mp4">
     </video>
     <figcaption>
-      <b>A long task from one prompt.</b> A coding agent that sees only the robot's cameras drives a Unitree G1 through a four-part task in a ScanArt lab:
+      <b>A long task from one prompt.</b> A coding agent that sees only the robot's cameras drives a Unitree G1 through a four-part task in our rebuilt lab:
       open a cabinet door, walk to the far end of the room, open a drawer, walk back. All four parts done, no fall (Isaac Sim, PhysX, RTX).
       <details><summary>The prompt</summary>
       <p class="prompt">“Tall light-coloured storage cabinets stand in a row along the wall on your left. Open one door of the first cabinet of that row by at least 30 degrees. Then walk along the aisle between the cabinet row and the desks to the far end of the room, to the white drawer cabinet that has a printer standing on top of it. Open one drawer of that cabinet by at least 15 cm. Then walk back to where you started and stop there.”</p>
@@ -207,19 +207,19 @@
   </figure>
 
   <figure class="vid">
-    <div class="tri-labels dark two-col"><span class="ours">ScanArt (ours)</span><span>Original scan mesh</span></div>
+    <div class="tri-labels dark two-col"><span class="ours">Ours</span><span>Original scan mesh</span></div>
     <video class="autoplay" muted loop playsinline preload="none" poster="assets/videos/g1_route_poster.jpg">
       <source src="assets/videos/g1_route.mp4" type="video/mp4">
     </video>
-    <figcaption><b>Same route, same controller.</b> In ScanArt the G1 walks the aisle to its goal. On the original scan it steps into a hole in the floor where the scanner saw nothing and falls through (Isaac Sim).</figcaption>
+    <figcaption><b>Same route, same controller.</b> In our scene the G1 walks the aisle to its goal. On the original scan it steps into a hole in the floor where the scanner saw nothing and falls through (Isaac Sim).</figcaption>
   </figure>
 
   <figure class="vid">
-    <div class="tri-labels dark two-col"><span class="ours">ScanArt (ours)</span><span>Scan + human joint annotations</span></div>
+    <div class="tri-labels dark two-col"><span class="ours">Ours</span><span>Scan + human joint annotations</span></div>
     <video class="autoplay" muted loop playsinline preload="none" poster="assets/videos/g1_door_poster.jpg">
       <source src="assets/videos/g1_door.mp4" type="video/mp4">
     </video>
-    <figcaption><b>Open the cabinet door.</b> The same coding agent drives the G1 in both rooms. In ScanArt it pulls the door open to 48°.
+    <figcaption><b>Open the cabinet door.</b> The same coding agent drives the G1 in both rooms. In our scene it pulls the door open to 48°.
       In the scan, even after cutting the door out along human articulation annotations, there is no handle to hold and nothing behind the door: it opens 0° (Isaac Sim, 3x speed).</figcaption>
   </figure>
 </section>
@@ -239,7 +239,7 @@
       </div>
       <div>
         <h3>Scales with compute, not artists</h3>
-        <p>The agent builds a room in a few hours without human edits, from the same captures that existing 3D datasets already have. We are scaling ScanArt across ScanNet++.</p>
+        <p>The agent builds a room in a few hours without human edits, from the same captures that existing 3D datasets already have. We are scaling it across ScanNet++.</p>
       </div>
     </div>
   </div>

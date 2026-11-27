@@ -68,7 +68,7 @@ export class WorldView {
     }
     this.ceiling = ((w.meta.nodes || {}).ceiling || []).map((n) => this.gltf.getObjectByName(n)).filter(Boolean);
     this.ceilZ = (w.meta.bounds ? w.meta.bounds[1][2] : 3) - 0.25;
-    if (missing.length) console.warn(`[scanart] ${missing.length} moving bodies without a glb node:`, missing.slice(0, 20));
+    if (missing.length) console.warn(`[demo] ${missing.length} moving bodies without a glb node:`, missing.slice(0, 20));
     // robot
     if (w.robot) this._buildRobot();
     // drag helpers

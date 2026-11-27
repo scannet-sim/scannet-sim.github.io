@@ -1,4 +1,4 @@
-# ScanArt interactive demo (browser physics + Unitree G1)
+# Interactive demo (browser physics + Unitree G1)
 
 Static, no build step, no CDN: MuJoCo 4.0.1 (WebAssembly, single-threaded) for physics, three.js r170 for rendering.
 Works on GitHub Pages (no COOP/COEP headers needed).
@@ -72,7 +72,7 @@ Embed: `<iframe src="demo/index.html?scene=office_ours&start=click" allow="fulls
 - The G1 MJCF is merged into the scene XML in the browser (names prefixed `g1_`, own default class, `sleep="never"`).
   Physics dt 2 ms, policy at 50 Hz (decimation 10), PD torques kp/kd from unitree_rl_gym `deploy_mujoco/configs/g1.yaml`.
 - Moving visual nodes follow their bodies: `node = T_body(t) · T_body(rest)^-1 · node_rest`.
-- `window.scanart` exposes `state.worlds` / `state.views`, `setKeys([...])`, `command(text)` for scripted tests.
+- `window.simdemo` exposes `state.worlds` / `state.views`, `setKeys([...])`, `command(text)` for scripted tests.
 
 ## Credits / licences
 

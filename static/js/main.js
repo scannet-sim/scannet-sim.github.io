@@ -1,4 +1,4 @@
-// ScanArt project page: room tabs, lazy autoplay videos, compare slider, live-demo launcher.
+// Project page: room tabs, lazy autoplay videos, compare slider, live-demo launcher.
 (() => {
   const V = "assets/videos/";
 
@@ -103,7 +103,7 @@
       const src = shell.dataset.src;
       if (!src) return;
       const f = document.createElement("iframe");
-      f.src = src; f.allow = "fullscreen; gamepad"; f.title = "ScanArt live demo"; f.loading = "eager";
+      f.src = src; f.allow = "fullscreen; gamepad"; f.title = "Live demo"; f.loading = "eager";
       shell.querySelector(".demo-placeholder").remove();
       shell.appendChild(f);
       const fs = document.createElement("button");

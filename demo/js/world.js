@@ -1,4 +1,4 @@
-// One physics world: a ScanArt scene package (physics.xml + meshes) in MuJoCo WASM, optionally with a Unitree G1 driven by
+// One physics world: a scene package (physics.xml + meshes) in MuJoCo WASM, optionally with a Unitree G1 driven by
 // its locomotion policy. No rendering here (see view.js).
 import { G1Policy } from './policy.js';
 
@@ -47,7 +47,7 @@ export async function loadScenePackage(base, prog) {
       ok = h === m[1];
     }
     if (ok) return { base, meta, xml: web, files, glb: await glbP, packed: true };
-    console.warn('[scanart] physics_web.xml is stale (packed from another physics.xml); loading the mesh files');
+    console.warn('[demo] physics_web.xml is stale (packed from another physics.xml); loading the mesh files');
   }
   const dirs = dirAttrs(xml);
   const refs = fileRefs(xml);
